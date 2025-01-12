@@ -69,8 +69,14 @@ This dataset is well-suited for tasks such as facial emotion recognition and is 
 
 
 
+## Deployment
+Deployment -->
+The deployment process is carried out within the `app.ipynb` notebook.
 
-##Conclusion:
+
+
+
+## Conclusion:
 
 The development and evaluation of four models for Facial Emotion Recognition (FER) provided valuable insights into leveraging deep learning techniques for emotion classification. Across all iterations, significant improvements were made in both model performance and generalization through various strategies, including architecture selection, data augmentation, and fine-tuning.
 
