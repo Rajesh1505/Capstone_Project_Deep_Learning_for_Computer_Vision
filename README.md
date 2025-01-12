@@ -47,7 +47,7 @@ The motivation behind this project stems from the growing need for automated sys
   - To train and evaluate the DeepFER model for accurate and real-time facial emotion recognition across diverse scenarios.
 
 
----
+
 
 
 ## Project Goal
@@ -55,3 +55,14 @@ The motivation behind this project stems from the growing need for automated sys
 The primary goal of **DeepFER: Facial Emotion Recognition Using Deep Learning** is to develop an advanced and efficient system capable of accurately identifying and classifying human emotions from facial expressions in real-time. By leveraging state-of-the-art Convolutional Neural Networks (CNNs) and Transfer Learning techniques, this project aims to create a robust model that can handle the inherent variability in facial expressions and diverse image conditions. The system will be trained on a comprehensive dataset featuring seven distinct emotions: angry, sad, happy, fear, neutral, disgust, and surprise. The ultimate objective is to achieve high accuracy and reliability, making DeepFER suitable for applications in human-computer interaction, mental health monitoring, customer service, and beyond. Through this project, we aim to bridge the gap between cutting-edge AI research and practical emotion recognition applications, contributing to more empathetic and responsive machine interactions with humans.
 
 
+
+#### Summary of Data:
+- **Classes**: The dataset contains 7 classes: `['angry', 'surprise', 'happy', 'disgust', 'fear', 'neutral', 'sad']`.
+- **Total Train Images**: 28,821 images.
+- **Image Size**: All images are uniformly sized at **48x48 pixels**.
+- **Image Mode**: Grayscale (`L`), meaning each image has a single channel (shape: `48x48x1`).
+- **Class Distribution**:
+  - The `happy` class has the highest representation, comprising approximately 25% of the dataset.
+  - The `disgust` class has the lowest representation, contributing around 1.5% of the dataset.
+
+This dataset is well-suited for tasks such as facial emotion recognition and is already preprocessed to a consistent size and format.
